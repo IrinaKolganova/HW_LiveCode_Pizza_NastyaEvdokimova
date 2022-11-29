@@ -1,0 +1,231 @@
+* {
+	box-sizing: border-box;
+	font-family: "Roboto";
+}
+
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.title {
+	margin: 0;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #333333;
+}
+
+.title__span {
+	color: #cf3031;
+}
+
+.button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 264px;
+	height: 66px;
+	background: #cf3031;
+	box-shadow: 0px 30px 45px rgba(207, 48, 49, 0.3);
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.button:hover {
+	border: 2px solid #ffffff;
+	box-shadow: none;
+}
+
+.button .button_large {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	color: #ffffff;
+}
+
+.button .button_small {
+	font-weight: 300;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.header {
+	margin-top: 60px;
+}
+
+.about {
+	padding: 173px 0 349px 0;
+}
+
+.about .container {
+	position: relative;
+}
+
+.about .about__img img {
+	position: absolute;
+}
+
+.about .about__ellipse_red {
+	top: -225px;
+	right: -142px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.about .about__ellipse_white {
+	top: -172px;
+	right: -56px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.about .about__pizza {
+	top: -148px;
+	right: -32px;
+	z-index: 1;
+	filter: drop-shadow(20px 20px 80px rgba(0, 0, 0, 0.5));
+}
+
+.about .about__mushroom {
+	top: -136px;
+	right: 437px;
+	filter: drop-shadow(7px 1px 6px rgba(0, 0, 0, 0.27));
+}
+
+.about .about__plant1 {
+	top: -250px;
+	right: -22px;
+	filter: drop-shadow(1px 3px 10px rgba(0, 0, 0, 0.44));
+	transform: rotate(25.09deg);
+}
+
+.about .about__plant2 {
+	bottom: -192px;
+	right: 383px;
+	filter: drop-shadow(1px 5px 10px rgba(0, 0, 0, 0.24));
+	transform: rotate(152.08deg);
+}
+
+.about .about__fish1 {
+	top: -43px;
+	right: -69px;
+	filter: drop-shadow(4px 2px 6px rgba(0, 0, 0, 0.43));
+	transform: rotate(120deg);
+}
+
+.about .about__fish2 {
+	bottom: 11px;
+	right: 553px;
+	filter: drop-shadow(4px 2px 6px rgba(0, 0, 0, 0.43));
+	transform: rotate(43.67deg);
+}
+
+.about .about__pepper {
+	bottom: -200px;
+	right: -55px;
+	filter: drop-shadow(1px 6px 10px rgba(0, 0, 0, 0.41));
+	transform: rotate(-60deg);
+}
+
+.about .about__header {
+	margin: 0;
+	width: 45%;
+	font-family: "Cabin Sketch";
+	font-weight: 700;
+	font-size: 81px;
+	line-height: 65px;
+	letter-spacing: 0.03em;
+	color: #333333;
+}
+
+.about .about__descr {
+	width: 34%;
+	margin-top: 50px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 22px;
+	color: #333333;
+}
+
+.about .about__link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 34%;
+	margin-top: 56px;
+}
+
+.about .about__menu {
+	font-weight: 700;
+	font-size: 16px;
+	color: #4f4f4f;
+	text-decoration: none;
+}
+
+.about .about__menu:hover {
+	color: #333333;
+	text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.about .about__tomato {
+	position: absolute;
+	bottom: -277px;
+	left: 76px;
+	filter: drop-shadow(10px 8px 25px rgba(0, 0, 0, 0.35));
+}
+
+.about .about__leaf {
+	position: absolute;
+	bottom: -309px;
+	left: 579px;
+	filter: drop-shadow(2px 8px 16px rgba(0, 0, 0, 0.25));
+	transform: rotate(22.95deg);
+}
+
+.delivery {
+	padding-bottom: 100px;
+}
+
+.delivery .delivery__content {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.delivery .delivery__item {
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 282px;
+	height: 282px;
+	background: #ffffff;
+	box-shadow: 0px 4px 50px rgba(71, 85, 114, 0.15);
+	border-radius: 50px;
+}
+
+.delivery .delivery__item:hover {
+	border: 2px solid #efefef;
+}
+
+.delivery .delivery__img {
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.delivery .delivery__fish {
+	position: absolute;
+	bottom: -96px;
+	right: 290px;
+	filter: drop-shadow(4px 2px 6px rgba(0, 0, 0, 0.43));
+	transform: rotate(-30deg);
+	z-index: -1;
+}
